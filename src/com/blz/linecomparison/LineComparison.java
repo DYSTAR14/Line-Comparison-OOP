@@ -16,7 +16,14 @@ public class LineComparison {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Line Comparison Computation");
-		LineComparison length=new LineComparison(3,-2,7,15);
-		System.out.println(length.calciLength());
+		LineComparison length1=new LineComparison(3,-2,4,15);
+		System.out.println("First Length : "+length1.calciLength());
+		LineComparison length2=new LineComparison(3,-2,7,15);
+		System.out.println("Second Length : "+length2.calciLength());
+		if (length1.calciLength() == length2.calciLength()) {
+			System.out.println("Length is equal");
+		} else {
+			System.out.println("Length is not equal");
+		}
 	}
 }
