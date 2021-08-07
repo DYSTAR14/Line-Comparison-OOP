@@ -24,6 +24,7 @@ public class LineComparison {
 		System.out.println("Second Length : "+secondLength);
 		System.out.println(firstLength.compareTo(secondLength));
 		if (firstLength.compareTo(secondLength)==0) {
+			System.out.println("Length is Equal");
 			System.out.println("FirstLength == SecondLength");
 		}
 		else if (firstLength.compareTo(secondLength)<0){
@@ -31,7 +32,6 @@ public class LineComparison {
 		}
 		else {
 			System.out.println("FirstLength > SecondLength");
-		}
-		
+		}	
 	}
 }
